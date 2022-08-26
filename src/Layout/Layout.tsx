@@ -13,10 +13,6 @@ const Layout = ({ children }: Props) => {
     <Root>
       <Main>{children}</Main>
       <Footer />
-      <OutlineWrapper>
-        <Outline />
-        <OutlineBackground />
-      </OutlineWrapper>
     </Root>
   )
 }
@@ -30,7 +26,6 @@ const Root = styled.div`
   position: relative;
   width: 100%;
   min-height: 100vh;
-  padding: 5px;
   background: ${styles.colors.background};
   z-index: 1;
 

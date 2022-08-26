@@ -18,10 +18,7 @@ const Root = styled.footer`
   justify-content: center;
   align-items: center;
   height: 40px;
-  border-top: 2px solid #121b22;
-  border-left: 2px solid #121b22;
-  border-right: 2px solid #121b22;
-  border-bottom: 1px solid #121b22;
+  border-top: 1px solid #121b22;
   z-index: 3;
   background: ${styles.colors.primary};
 
