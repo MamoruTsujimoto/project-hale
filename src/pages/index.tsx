@@ -70,7 +70,8 @@ const Root = styled.section`
 
     @media (max-width: ${styles.sizes.breakpoint.small}) {
       width: 100%;
-      padding: 0 20px;
+      padding: 0 15px;
+      font-size: ${styles.mixins.fontSize(13,28)}
     }
   }
 `

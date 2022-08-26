@@ -17,8 +17,6 @@ const Root = styled.footer`
   display: flex;
   justify-content: center;
   align-items: center;
-  position: sticky;
-  bottom: 6px;
   height: 40px;
   border-top: 2px solid #121b22;
   border-left: 2px solid #121b22;
