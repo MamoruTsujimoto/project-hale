@@ -25,7 +25,8 @@ const Home: NextPage = ({ posts }: InferGetStaticPropsType<typeof getStaticProps
   return (
     <>
       <Head>
-        <title></title>
+        <title>Hale4Food - 心を晴れやかに</title>
+        <meta name='description' content={config.info.siteDescription} />
       </Head>
 
       <Layout>

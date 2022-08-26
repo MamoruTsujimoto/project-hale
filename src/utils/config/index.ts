@@ -4,7 +4,7 @@ const config = {
   info: {
     siteName: 'Hale4Food',
     author: 'Tsujimoto Junko',
-    siteDescription: '',
+    siteDescription: '食に関するお手伝いをさせて頂き、心を晴れやかに。About food. About life。お弁当、オードブル、ケータリング、ヘルシーなお菓子の販売や酵素ジュース作り等、食に関する事で、私が出来る事なら、何でもさせて頂きます！',
     siteURL: 'https://',
     copyright: '© 2022 Hale4Food',
     ogp: {
