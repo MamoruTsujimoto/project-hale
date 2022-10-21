@@ -1,27 +1,13 @@
 import styled from '@emotion/styled'
-import { GetStaticProps, InferGetStaticPropsType } from 'next'
 import Image from 'next/image'
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Layout from 'Layout/Layout'
-import NotionService from 'services/notion-service'
 import config from 'utils/config'
 import styles from 'utils/styles'
 
-export const getStaticProps: GetStaticProps = async () => {
-  const notionService = new NotionService()
-  const posts = await notionService.getPublishedBlogPosts()
-
-  return {
-    props: {
-      posts,
-    },
-    revalidate: 60,
-  }
-}
-
-const Home: NextPage = ({ posts }: InferGetStaticPropsType<typeof getStaticProps>) => {
+const Home: NextPage = () => {
   return (
     <>
       <Head>
